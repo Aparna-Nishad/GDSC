@@ -2,7 +2,7 @@
 console.log("Addition of two numbers:")
 console.log(4 + 3)
 // substraction
-console.log("Substraction:")
+console.log("Subtraction:")
 console.log(4 - 3)
 // Multiplication
 console.log("Multiplication: ")
