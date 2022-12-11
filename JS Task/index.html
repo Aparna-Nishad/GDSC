@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC javascript example</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(142, 126, 126);
+    }
+
+    input {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        border: none;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <h1>Welcome! Check console log for the Mathematical Operations.</h1>
+    <form class="ex">
+        <input id="name" type="text" placeholder="Enter Name" />
+        <button class="btn" type="submit">Submit</button>
+    </form>
+    <h1 id="hover"> Mouse hover effect</h1>
+    <div class="a">
+        <h1 id="change">Click the button to change the text</h1>
+        <button onclick="changeText()" class="btn">Click here</button>
+    </div>
+    <div class="a">
+        <h1 id="tag">Click the button to change the font size</h1>
+        <button onclick="changeTextSize()" class="btn">Click here</button>
+    </div>
+    <form class="members">
+        <p>Enter integer value "7" to view the team members name.</p>
+        <input id="teamMember" type="Number" placeholder="Enter Integer value" />
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>
